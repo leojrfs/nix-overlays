@@ -448,6 +448,4 @@ websocketafPackages // {
   });
 
   yuscii = callPackage ./yuscii { ocamlPackages = oself; };
-
-  zarith = callPackage ./zarith1_11 { ocamlPackages = oself; };
 }
