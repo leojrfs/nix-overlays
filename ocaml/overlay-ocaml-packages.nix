@@ -23,7 +23,7 @@ let
 in
 {
   ocaml = self.ocamlPackages.ocaml;
-  ocamlPackages = oPs.ocamlPackages_4_12;
+  ocamlPackages = oPs.ocamlPackages_4_13;
   ocamlPackages_latest = self.ocamlPackages;
 
   ocaml-ng = super.ocaml-ng // oPs // {
